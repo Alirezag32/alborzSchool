@@ -1,0 +1,58 @@
+.homepage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  direction: rtl;
+}
+
+.header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 32px;
+  line-height: 1.6;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-list-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-info {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 16px;
+}

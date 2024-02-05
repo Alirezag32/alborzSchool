@@ -1,0 +1,85 @@
+nav  {
+          direction: rtl;
+         /* margin-bottom: 10vh; */
+}
+
+a {
+          text-decoration: none;
+          color: black;
+}
+
+.navbar-collapse {
+          justify-content: space-between;
+}
+.profile-navbar {
+  padding: 2vh;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-navbar:hover {
+  background-color: #0056b3;
+}
+
+/* navbar.css */
+.profile-dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* Optional: Hover effect */
+.profile-dropdown:hover {
+  background-color: #343a40;
+  
+}
+
+.profile-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-image-navbar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Optional: Hover effect */
+.profile-dropdown:hover {
+  background-color: #343a40;
+}
+
+/* Navbar Collapse styles */
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.dropdown-toggle::after {
+          display: none;
+}
+
+.navbar-nav {
+          justify-content: space-around;
+}
+
+.dropdown-menu.show {
+  text-align: center;
+}
