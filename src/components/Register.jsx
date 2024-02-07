@@ -2,8 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Register.css';
 import {useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { auth } from '../config/firebase-config';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+
+
 const Register = () => {
           
           let [inputUseStateEmail, inputUseStateFunctionUsername] = useState("")
@@ -13,23 +13,21 @@ const Register = () => {
           
     const fechingData =   () => {
    
-      createUserWithEmailAndPassword(auth, inputUseStatePassword, inputUseStateEmail)
-        .then(res => {
-          console.log("SECSESFULY",res)
+     
+        
+          
           localStorage.setItem("username", inputUseStateEmail.trim());
           navigate("/");
         
-        })
-        .catch(res => {
-        console.log("EROR",res)
-      })
+        }
+        
       
       
 
       
     
       
-            }
+           
           
 function formHandeler() {
 
