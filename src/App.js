@@ -4,7 +4,7 @@ import Register from "./components/Register";
 import Home from "./components/Home";
 import { PrivetRoute } from "./components/PrivetRoute";
 import Profile from "./components/profile";
-import AdminRegister from "./components/admin-register";
+
 import NotificationsPage from "./components/NotificationsPage";
 import Articles from "./components/articles";
 import AboutUs from "./components/aboutus";
